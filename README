@@ -1,0 +1,4 @@
+* If you get error of get_auth_plugin
+    raise errors.NotSupportedError
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+then uninstall and reinstall mysql-connector-python
